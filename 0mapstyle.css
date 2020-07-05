@@ -5,9 +5,12 @@ html{
 	background-color: #424242;
 }
 
+#icons{
+    position: fixed;
+}
+
 #icons img{
-    object-fit: fill;
-    max-width: 100%;
+    width: 75%;
 }
 
 #home_click, #building_click, #landmark_click{
