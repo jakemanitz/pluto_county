@@ -5,11 +5,11 @@ html{
 	background-color: #9D9FA2;
 }
 
-#home_click, #building_click, #landmark_click{
-	position: relative;
+#home_click{
+	position: fixed;
 }
 
-#home_icon, #building_icon, #landmark_icon{
+#home_icon{
 	position: absolute;
 	z-index: -1;
 }
