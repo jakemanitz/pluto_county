@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+html{
+	background-color: #424242;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+#head{
+	padding: 10px;
+}
+
+#hook, #problem_statement{
+	padding: 10px;
+	background-color: lightgrey;
+  }
+
+#intro, #characters{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	position: relative;
+  }
+
+#map{
+	padding: 10px;
+	float: left;
+	object-fit: contain;
+}
+
+#text{
+	object-fit: contain;
+}
+
+#welcome{
+	padding-top: 20px;
+}
+
+#map_click, #character_click{
+	position: relative;
+}
+
+#map_icon, #character_icon{
+	position: absolute;
+	z-index: -1;
+}
+
+#hover{
+	z-index: 1;
+	position: relative;
+	opacity: 0;
+}
+#hover:hover{
+	opacity: 1;
+}
+
+#problem_statement{
+	display: grid;
+	grid-template-columns: 10% 90%;
+	position: relative;
+  }
+
+#jake{
+	padding: 10px;
+	float: left;
+	position: relative;
+}
+
+#jake img{
+	position: absolute;
+	bottom: 0;
+}
+
+#statement{
+	padding: 10px;
+	padding-left: 30px;
+}
+
+#characters{
+	padding: 10px;
+}
+
+#cast{
+	padding: 10px;
+	position: relative;
+  }
+
+#powers{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	position: relative;
+}

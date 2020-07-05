@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+html{
+	background-color: #9D9FA2;
+}
+
+#home{
+	position: fixed;
+	top: 10;
+	left: 10;
+	z-index: 1;
+}
+
+#nav{
+	float: right;
+	display: grid;
+	grid-template-columns: auto auto auto;
+    width: 40%;
+}
+
+.bios img{
+    position: fixed;
+	bottom: 0px;
+	z-index: -1;
+	max-height: 100%;
+}
+
+a{
+	cursor: pointer;
+}
