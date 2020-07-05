@@ -10,6 +10,24 @@ html{
     max-width: 100%;
 }
 
+#home_click, #building_click, #landmark_click{
+	position: relative;
+}
+
+#home_icon, #building_icon, #landmark_icon{
+	position: absolute;
+	z-index: -1;
+}
+
+#hover{
+	z-index: 1;
+	position: relative;
+	opacity: 0;
+}
+#hover:hover{
+	opacity: 1;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
