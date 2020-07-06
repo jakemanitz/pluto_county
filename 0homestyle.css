@@ -24,20 +24,26 @@ html{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	position: relative;
+	padding: 10px;
   }
 
 #map{
-	padding: 10px;
 	float: left;
 	object-fit: contain;
 }
 
 #text{
 	object-fit: contain;
+	padding: 10px;
 }
 
 #welcome{
 	padding-top: 20px;
+}
+
+#characters{
+	padding: 10px;
+	object-fit: contain;
 }
 
 #map_click, #character_click{

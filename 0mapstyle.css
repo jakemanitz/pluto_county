@@ -37,9 +37,13 @@ html{
 	margin-right: auto;
   }
 
+#map{
+  position: relative;
+}
+
 #map img{
-    max-height: 65%;
-    max-width: 100%;
-    position: fixed;
+  max-height: 65%;
+  max-width: 100%;
+  position: fixed;
 	bottom: 10px;
 }
