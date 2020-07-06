@@ -20,7 +20,7 @@ html{
 	background-color: lightgrey;
   }
 
-#intro, #characters{
+#intro, #characters, #friendships, #missions, #stats, #powers, #footer{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	position: relative;
@@ -41,16 +41,16 @@ html{
 	padding-top: 20px;
 }
 
-#characters{
+#characters, #friendships, #missions, #stats, #powers{
 	padding: 10px;
 	object-fit: contain;
 }
 
-#map_click, #character_click{
+#map_click, #character_click, #friendship_click, #mission_click, #stat_click, #power_click, #instagram_click{
 	position: relative;
 }
 
-#map_icon, #character_icon{
+#map_icon, #character_icon, #friendship_icon, #mission_icon, #stat_icon, #power_icon, #instagram_icon{
 	position: absolute;
 	z-index: -1;
 }
@@ -95,7 +95,7 @@ html{
 	position: relative;
   }
 
-#powers{
+#power_gifs{
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
 	position: relative;
