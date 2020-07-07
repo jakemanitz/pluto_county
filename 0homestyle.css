@@ -26,6 +26,12 @@ html{
 	position: relative;
 	padding: 10px;
   }
+#scroll{
+  display: grid;
+	grid-template-columns: 50% 50%;
+	position: relative;
+	padding-top: 10px;
+}
 
 #map{
 	float: left;
@@ -91,9 +97,13 @@ html{
 }
 
 #cast{
-	padding: 10px;
-	position: relative;
+	overflow-y: auto;
+	white-space: nowrap;
   }
+
+#cast > div{
+	display: inline-block;
+}
 
 #power_gifs{
 	display: grid;
