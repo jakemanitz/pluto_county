@@ -13,9 +13,10 @@ html{
 
 #head{
 	padding: 10px;
+	padding-bottom: 20px;
 }
 
-#hook, #problem_statement, #character_explination, #friendship_explination{
+#hook, #problem_statement, #character_explanation, #friendship_explanation, #mission_explanation{
 	padding: 10px;
 	background-color: lightgrey;
   }
@@ -96,17 +97,17 @@ html{
 	padding: 10px;
 }
 
-#cast{
+#cast_scroll{
 	overflow-y: auto;
 	white-space: nowrap;
   }
 
-#cast > div{
+#cast_scroll > div{
 	display: inline-block;
 }
 
 #friendship_bars{
-	height: 83%;
+	height: 48%;
 	width: 50%;
 	overflow-x: auto;
 	z-index: 1;
@@ -128,6 +129,24 @@ html{
 #friendship_box{
 	position: relative;
 	z-index: -1;
+}
+
+#friendship_windows{
+	padding-top: 10px;
+}
+
+#mission_annotation{
+	padding-top: 10px;
+}
+
+#mission_scroll{
+	overflow-y: auto;
+	white-space: nowrap;
+	height: 10%;
+  }
+
+#mission_scroll > div{
+	display: inline-block;
 }
 
 #power_gifs{
