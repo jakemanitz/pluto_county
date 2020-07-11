@@ -16,7 +16,7 @@ html{
 	padding-bottom: 20px;
 }
 
-#hook, #problem_statement, #character_explanation, #friendship_explanation, #mission_explanation{
+#hook, #problem_statement, #character_explanation, #friendship_explanation, #mission_explanation, #stat_explanation{
 	padding: 10px;
 	background-color: lightgrey;
   }
