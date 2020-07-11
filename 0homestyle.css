@@ -57,7 +57,7 @@ html{
 	position: relative;
 }
 
-#map_icon, #character_icon, #friendship_icon, #mission_icon, #stat_icon, #power_icon, #instagram_icon{
+#map_icon, #character_icon, #friendship_icon, #mission_icon, #stat_icon, #stat_window, #power_icon, #instagram_icon{
 	position: absolute;
 	z-index: -1;
 }
@@ -106,6 +106,17 @@ html{
 	display: inline-block;
 }
 
+#queer{
+	overflow-y: auto;
+	white-space: nowrap;
+	position: absolute;
+	bottom: 0;
+  }
+
+#queer > div{
+	display: inline-block;
+}
+
 #friendship_bars{
 	height: 48%;
 	width: 50%;
@@ -135,6 +146,31 @@ html{
 	padding-top: 10px;
 }
 
+#mission_bars{
+	height: 63%;
+	width: 100%;
+	overflow-x: auto;
+	z-index: 1;
+	position: absolute;
+	margin-top: 14%;
+	padding: 1%;
+	padding-left: 2%;
+}
+
+#mission_bars > div{
+	float: left;
+}
+
+#mission_bars::-webkit-scrollbar{
+	position: relative;
+	float: left;
+}
+
+#mission_box{
+	position: relative;
+	z-index: -1;
+}
+
 #mission_annotation{
 	padding-top: 10px;
 }
@@ -142,10 +178,40 @@ html{
 #mission_scroll{
 	overflow-y: auto;
 	white-space: nowrap;
-	height: 10%;
   }
 
 #mission_scroll > div{
+	display: inline-block;
+}
+
+#power_ups{
+	height: 10%;
+	width: 100%;
+	overflow-x: auto;
+	z-index: 2;
+	position: absolute;
+	margin-top: 68.5%;
+	padding: 1%;
+	padding-left: 3%;
+}
+
+#power_ups > div{
+	float: left;
+	padding: 1%;
+}
+
+#power_ups::-webkit-scrollbar{
+	position: relative;
+	float: left;
+}
+
+#stat_windows{
+	overflow-y: auto;
+	white-space: nowrap;
+	padding: 10px;
+  }
+
+#stat_windows > div{
 	display: inline-block;
 }
 
