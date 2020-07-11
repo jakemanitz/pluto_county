@@ -21,7 +21,7 @@ html{
 	background-color: lightgrey;
   }
 
-#intro, #characters, #friendships, #missions, #stats, #powers, #footer{
+#intro, #characters, #friendships, #missions, #stats, #stat_text, #powers, #footer{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	position: relative;
@@ -106,11 +106,16 @@ html{
 	display: inline-block;
 }
 
+#scroll_pride{
+	position: absolute;
+	bottom: 0;
+}
+
 #queer{
 	overflow-y: auto;
 	white-space: nowrap;
 	position: absolute;
-	bottom: 0;
+	bottom: 2%;
   }
 
 #queer > div{
@@ -185,7 +190,7 @@ html{
 }
 
 #power_ups{
-	height: 10%;
+	height: 13%;
 	width: 100%;
 	overflow-x: auto;
 	z-index: 2;
@@ -203,6 +208,10 @@ html{
 #power_ups::-webkit-scrollbar{
 	position: relative;
 	float: left;
+}
+
+#stat_annotations{
+	padding: 10px;
 }
 
 #stat_windows{
