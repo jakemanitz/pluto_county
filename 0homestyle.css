@@ -41,14 +41,10 @@ html{
 
 #text{
 	object-fit: contain;
-	padding: 10px;
+	padding-left: 10px;
 }
 
-#welcome{
-	padding-top: 20px;
-}
-
-#characters, #friendships, #missions, #stats, #powers, #friendship_annotation{
+#characters, #friendships, #missions, #stats, #powers, #power_gems, #friendship_annotation{
 	padding: 10px;
 	object-fit: contain;
 }
@@ -57,12 +53,12 @@ html{
 	position: relative;
 }
 
-#map_icon, #character_icon, #friendship_icon, #mission_icon, #stat_icon, #stat_window, #power_icon, #instagram_icon{
+#map_icon, #character_icon, #friendship_icon, #mission_icon, #stat_icon, #stat_window, #power_icon, #power_windows, #instagram_icon{
 	position: absolute;
 	z-index: -1;
 }
 
-#hover{
+#hover, #power_windows_annotation{
 	z-index: 1;
 	position: relative;
 	opacity: 0;
