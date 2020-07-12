@@ -44,7 +44,7 @@ html{
 	padding-left: 10px;
 }
 
-#characters, #friendships, #missions, #stats, #powers, #power_gems, #friendship_annotation{
+#characters, #friendships, #missions, #stats, #powers, #friendship_annotation{
 	padding: 10px;
 	object-fit: contain;
 }
@@ -58,7 +58,7 @@ html{
 	z-index: -1;
 }
 
-#hover, #power_windows_annotation{
+#hover{
 	z-index: 1;
 	position: relative;
 	opacity: 0;
@@ -218,6 +218,25 @@ html{
 
 #stat_windows > div{
 	display: inline-block;
+}
+
+#power_scroll{
+	margin-top: 7%;
+	margin-left: 1%;
+	margin-right: 1%;
+	position: absolute;
+	overflow-y: auto;
+	white-space: nowrap;
+	z-index: 1;
+  }
+
+#power_scroll > div{
+	display: inline-block;
+}
+
+#power_window{
+	position: relative;
+	z-index: -1;
 }
 
 #power_gifs{
