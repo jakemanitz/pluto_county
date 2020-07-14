@@ -16,12 +16,12 @@ html{
 	padding-bottom: 20px;
 }
 
-#hook, #problem_statement, #character_explanation, #friendship_explanation, #mission_explanation, #stat_explanation{
+#hook, #problem_statement, #character_explanation, #friendship_explanation, #mission_explanation, #tool_explanation, #stat_explanation, #power_explanation{
 	padding: 10px;
 	background-color: lightgrey;
   }
 
-#intro, #characters, #friendships, #missions, #stats, #stat_text, #powers, #footer{
+#intro, #characters, #friendships, #missions, #tools, #stats, #stat_text, #powers, #footer{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	position: relative;
@@ -44,16 +44,16 @@ html{
 	padding-left: 10px;
 }
 
-#characters, #friendships, #missions, #stats, #powers, #friendship_annotation{
+#characters, #friendships, #missions, #tools, #stats, #powers, #friendship_annotation{
 	padding: 10px;
 	object-fit: contain;
 }
 
-#map_click, #character_click, #friendship_click, #mission_click, #stat_click, #power_click, #instagram_click{
+#map_click, #character_click, #friendship_click, #mission_click, #tool_click, #stat_click, #power_click, #instagram_click{
 	position: relative;
 }
 
-#map_icon, #character_icon, #friendship_icon, #mission_icon, #stat_icon, #stat_window, #power_icon, #power_windows, #instagram_icon{
+#map_icon, #character_icon, #friendship_icon, #mission_icon, #tool_icon, #stat_icon, #stat_window, #power_icon, #power_windows, #instagram_icon{
 	position: absolute;
 	z-index: -1;
 }
@@ -182,6 +182,42 @@ html{
   }
 
 #mission_scroll > div{
+	display: inline-block;
+}
+
+#tool_scroll1{
+	position: relative;
+}
+#tool_scroll{
+	margin-top: 7%;
+	margin-left: 2%;
+	margin-right: 1%;
+	position: absolute;
+	overflow-y: auto;
+	white-space: nowrap;
+	z-index: 1;
+  }
+
+#tool_scroll > div{
+	display: inline-block;
+}
+
+#tool_window{
+	position: relative;
+	z-index: -1;
+}
+
+#tool_character_scroll{
+	position: relative;
+	bottom: 0;
+}
+
+#tool_characters{
+	overflow-y: auto;
+	white-space: nowrap;
+  }
+
+#tool_characters > div{
 	display: inline-block;
 }
 
