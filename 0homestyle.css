@@ -21,7 +21,7 @@ html{
 	background-color: lightgrey;
   }
 
-#intro, #characters, #friendships, #missions, #tools, #stats, #stat_text, #powers, #footer{
+#intro, #header, #characters, #friendships, #missions, #tools, #stats, #stat_text, #powers, #footer{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	position: relative;
@@ -119,7 +119,7 @@ html{
 }
 
 #friendship_bars{
-	height: 48%;
+	height: 45.5%;
 	width: 50%;
 	overflow-x: auto;
 	z-index: 1;
@@ -148,14 +148,13 @@ html{
 }
 
 #mission_bars{
-	height: 63%;
-	width: 100%;
+	height: 51%;
+	width: 50%;
 	overflow-x: auto;
 	z-index: 1;
 	position: absolute;
-	margin-top: 14%;
+	margin-top: 7%;
 	padding: 1%;
-	padding-left: 2%;
 }
 
 #mission_bars > div{
